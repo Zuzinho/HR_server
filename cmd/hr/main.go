@@ -70,5 +70,5 @@ func main() {
 	log.Printf("starting on port %s", port)
 
 	// Запускаем сервер
-	log.Println(http.ListenAndServe(":"+port, api))
+	log.Println(http.ListenAndServe(port, api))
 }
