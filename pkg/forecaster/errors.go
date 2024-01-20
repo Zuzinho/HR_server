@@ -2,7 +2,7 @@ package forecaster
 
 import "fmt"
 
-// NoCountryError - error of empty probability countries set
+// NoCountryError - error with empty probability countries set
 type NoCountryError struct {
 	name string
 }
